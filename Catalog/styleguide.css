@@ -1,0 +1,14 @@
+:root {
+  --basicgreen: rgba(104, 183, 56, 1);
+  --basicgrey: rgba(242, 242, 242, 1);
+  --specialgrey-2: rgba(102, 102, 102, 1);
+  --specialgrey: rgba(205, 205, 205, 1);
+  --specialdark-grey: rgba(68, 68, 68, 1);
+  --specialdark-grey-2: rgba(34, 34, 34, 1);
+  --statuserror: rgba(255, 130, 130, 1);
+  --basicgreen-2: rgba(94, 170, 47, 1);
+  --basic-white: rgba(255, 255, 255, 1);
+  --shadow-normal: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  --shadow-hover: 0px 2px 4px 0px rgba(0, 0, 0, 0.19);
+  --shadow-pressed: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
