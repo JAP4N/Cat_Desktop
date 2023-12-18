@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald&family=Pixelify+Sans&display=swap"
       rel="stylesheet"
     />
+
     <title>Cat Energy Главная</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
@@ -26,7 +29,7 @@
               <div class="rectangle"></div>
               <ul class="menu">
                 <li><a href="#">главная</a></li>
-                <li><a href="/Catalog/index.html">Каталог продукции</a></li>
+                <li><a href="./Catalog/index.html">Каталог продукции</a></li>
                 <li class="link-menu"><a href="#">подбор программы</a></li>
               </ul>
               <img class="index-can" src="img/index-can.png" />
@@ -67,16 +70,51 @@
                     required
                   />
                 </label>
-                <label class="form__label_3" for="text">
-                  Расскажите обо всех повадках кота
-                  <textarea
+                <!-- <label class="form__label_3" for="text"> -->
+                  <div class="wrapper__form"><h3 class="wrapper__form_title">Предпочтения вашего кота/кошки</h3>
+                    <div class="wrapper__form-input">
+                  <label class="form__label form__label--radio" for="weight-loss">
+                    <input class="visually-hidden form__radio" id="weight-loss" type="radio" name="program_1" value="1">
+                    <span></span>
+                    Курица</label>
+                    <label class="form__label form__label--radio" for="weight-loss_2">
+                      <input class="visually-hidden form__radio" id="weight-loss_2" type="radio" name="program_1" value="2">
+                      <span></span>
+                      Рыба</label>
+                      <label class="form__label form__label--radio" for="weight-loss_3">
+                        <input class="visually-hidden form__radio" id="weight-loss_3" type="radio" name="program_1" value="3">
+                        <span></span>
+                        Говядина</label>
+                        <label class="form__label form__label--radio" for="weight-loss_4">
+                          <input class="visually-hidden form__radio" id="weight-loss_4" type="radio" name="program_1" value="4">
+                          <span></span>
+                          Индейка</label>
+                        </div>
+                  </div>
+                  <div class="wrapper__form_two"><h3 class="wrapper__form_title">Дополнительно к заказу</h3>
+                    <div class="wrapper__form-input_two">
+                  <label class="form__label form__label--radio" for="dlc">
+                    <input class="visually-hidden form__radio" id="dlc" type="radio" name="program_2" value="1">
+                    <span></span>
+                    молоко</label>
+                    <label class="form__label form__label--radio" for="dlc_2">
+                      <input class="visually-hidden form__radio" id="dlc_2" type="radio" name="program_2" value="2">
+                      <span></span>
+                      вода</label>
+                      <label class="form__label form__label--radio" for="dlc_3">
+                        <input class="visually-hidden form__radio" id="dlc_3" type="radio" name="program_2" value="3">
+                        <span></span>
+                        витамины</label>
+                        </div>
+                  </div>
+                  <!-- <textarea
                     class="pre-header__form-input pre-header__form-input-text"
                     name="msg"
                     cols="30"
                     rows="3"
                     id="text"
                   ></textarea>
-                </label>
+                </label> -->
 
                 <input
                   class="pre-header__form-input-submit"
